@@ -5,6 +5,12 @@
 	"keywords": ["password", "hashing"],
 	"homepage": "https://github.com/ircmaxell/password_compat",
 	"license": "MIT",
+    "conflict": {
+        "ircmaxell/password_compat": "*"
+    },
+    "replace": {
+        "ircmaxell/password_compat": "*"
+    },
 	"authors": [
 		{
 			"name": "Anthony Ferrara",
